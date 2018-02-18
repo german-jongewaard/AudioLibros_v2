@@ -19,7 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Aplicacion app = (Aplicacion) getApplication();
+        recyclerView.setAdapter(adaptador);
+
+
+
+        /*Aplicacion app = (Aplicacion) getApplication();
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setAdapter(app.getAdaptador());
@@ -31,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Seleccionado el elemento: "
                         + recyclerView.getChildAdapterPosition(v), Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
 
     }
 
