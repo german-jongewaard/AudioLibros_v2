@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import java.util.Vector;
 
 import audiolibros.example.com.audiolibros.AdaptadorLibros;
+import audiolibros.example.com.audiolibros.Aplicacion;
 import audiolibros.example.com.audiolibros.Libro;
 
 /**
@@ -22,7 +23,13 @@ public class SelectorFragment extends Fragment {
 
     public void onAttach(Context contexto){
         super.onAttach(contexto);
-        
+
+        if(contexto instanceof Activity){
+            this.actividad = (Activity) contexto;
+            Aplicacion app = (Aplicacion) actividad.getApplication();
+            adaptador = app.getAdaptador();
+            vectorLibros = app.getVectorLibros();
+        }
 
     }
 
