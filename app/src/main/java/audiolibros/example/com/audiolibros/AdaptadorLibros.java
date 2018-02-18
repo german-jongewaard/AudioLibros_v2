@@ -32,6 +32,11 @@ public class AdaptadorLibros extends RecyclerView.Adapter<AdaptadorLibros.ViewHo
         this.contexto = contexto;
     }
 
+
+    public void setOnClickListener(View.OnClickListener onClickListener){
+        this.onClickListener = onClickListener;
+    }
+
     //Creamos nuestro ViewHolder, con los tipos de elementos a modificar
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
@@ -71,9 +76,7 @@ public class AdaptadorLibros extends RecyclerView.Adapter<AdaptadorLibros.ViewHo
         return vectorLibros.size();
     }
 
-    public void setOnItemClickListener(View.OnClickListener onItemClickListener){
-        this.onClickListener = onClickListener;
-    }
+
 
 
 }

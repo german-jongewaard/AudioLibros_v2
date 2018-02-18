@@ -49,7 +49,7 @@ public class SelectorFragment extends Fragment {
         recyclerView.setLayoutManager(new GridLayoutManager(actividad,2));
         recyclerView.setAdapter(adaptador);
 
-        adaptador.setOnItemClickListener(new View.OnClickListener() {
+        adaptador.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
                 Toast.makeText(actividad, "Seleccionado el elemento: "
                         + recyclerView.getChildAdapterPosition(v), Toast.LENGTH_SHORT).show();
