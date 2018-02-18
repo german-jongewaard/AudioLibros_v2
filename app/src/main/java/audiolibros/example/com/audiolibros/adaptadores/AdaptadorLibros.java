@@ -1,4 +1,4 @@
-package audiolibros.example.com.audiolibros;
+package audiolibros.example.com.audiolibros.adaptadores;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,6 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Vector;
+
+import audiolibros.example.com.audiolibros.modelo.Libro;
+import audiolibros.example.com.audiolibros.R;
 
 /**
  * Created by german on 17-2-18.

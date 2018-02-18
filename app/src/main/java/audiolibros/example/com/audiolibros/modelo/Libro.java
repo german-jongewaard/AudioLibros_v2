@@ -1,6 +1,8 @@
-package audiolibros.example.com.audiolibros;
+package audiolibros.example.com.audiolibros.modelo;
 
 import java.util.Vector;
+
+import audiolibros.example.com.audiolibros.R;
 
 /**
  * Created by german on 17-2-18.

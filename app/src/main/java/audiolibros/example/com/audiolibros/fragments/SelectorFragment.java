@@ -13,9 +13,9 @@ import android.widget.Toast;
 
 import java.util.Vector;
 
-import audiolibros.example.com.audiolibros.AdaptadorLibros;
-import audiolibros.example.com.audiolibros.Aplicacion;
-import audiolibros.example.com.audiolibros.Libro;
+import audiolibros.example.com.audiolibros.adaptadores.AdaptadorLibros;
+import audiolibros.example.com.audiolibros.actividades.Aplicacion;
+import audiolibros.example.com.audiolibros.modelo.Libro;
 import audiolibros.example.com.audiolibros.R;
 
 /**

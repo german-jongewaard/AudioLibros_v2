@@ -5,10 +5,17 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
 
-    tools:context=".MainActivity"
+    tools:context=".actividades.MainActivity"
     tools:showIn="@layout/activity_main">
+
     <fragment
         android:id="@+id/selector_fragment"
+        android:name="audiolibros.example.com.audiolibros.fragments.SelectorFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <fragment
+        android:id="@+id/fragment_detalle"
         android:name="audiolibros.example.com.audiolibros.fragments.SelectorFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
