@@ -6,6 +6,5 @@
     android:id="@+id/contenedor_pequeno"
     android:orientation="horizontal"
     tools:context=".actividades.MainActivity"
-    tools:showIn="@layout/activity_main"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    tools:showIn="@layout/activity_main" >
 </LinearLayout>
