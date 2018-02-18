@@ -79,7 +79,4 @@ public class AdaptadorLibros extends RecyclerView.Adapter<AdaptadorLibros.ViewHo
         return vectorLibros.size();
     }
 
-
-
-
 }
